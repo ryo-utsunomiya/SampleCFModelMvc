@@ -5,12 +5,9 @@ using System.Threading.Tasks;
 
 namespace SampleCFModelMvc.Models
 {
-    public partial class Person
+    public partial class Prefecture
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
-        public int PrefectureId { get; set; }
-        public Prefecture Prefecture { get; set; }
     }
 }
